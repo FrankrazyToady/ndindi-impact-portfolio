@@ -1,0 +1,129 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  background-color: #1e3a8a; /* navy blue */
+  color: white;
+  padding: 50px 20px;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+.hero-text p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+.hero-image img {
+  max-width: 250px;
+  border-radius: 10px;
+}
+.social-icons a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Lists */
+ul {
+  list-style: disc inside;
+  margin-top: 15px;
+}
+
+/* Quotes */
+.quote-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-style: italic;
+  background-color: #e0e7ff; /* light blue */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer a {
+  color: #ffd700; /* gold */
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-image img {
+    margin-top: 20px;
+  }
+}
