@@ -31,7 +31,7 @@ This project was built as a **tech showcase** to demonstrate web development ski
 ---
 
 ## File structure
-/ndindi-portfolio
+/ndindi-portfolio       
 ├── index.html
 ├── css/
 │   └── style.css
