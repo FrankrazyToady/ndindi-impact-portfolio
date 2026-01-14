@@ -31,17 +31,19 @@ This project was built as a **tech showcase** to demonstrate web development ski
 ---
 
 ## File structure
-/ndindi-portfolio 
-├── index.html← main portfolio page 
-├── css/ 
-│    └── style.css← styling 
-├── js/ 
-│    └── main.js← interactivity scripts 
-├── assets/ 
-│    
-├── images/← headshots, project images 
-│    └── icons/← social media icons 
-└── README.md← project documentation
+/ndindi-portfolio
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── assets/
+│   ├── images/
+│   │   └── profile.jpg
+│   └── icons/
+│       ├── facebook.png
+│       └── x.png
+└── README.md
 ---
 
 ## How to Run
